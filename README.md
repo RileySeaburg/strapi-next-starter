@@ -27,8 +27,8 @@ These instructions will get you a copy of the project up and running on your loc
  - Yarn   [Click Here To Install](https://classic.yarnpkg.com/en/docs/install/)
  - Docker [Click Here To Install](https://docs.docker.com/engine/install/) 
  - (Windows Only) WSL [Click Here To Install WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
- [!IMPORTANT] 
- Windows subsystem for linux must be installed for a successful windows installation! 
+> [!IMPORTANT] 
+> Windows subsystem for linux must be installed for a successful windows installation! 
 
 test
 ### Installing
