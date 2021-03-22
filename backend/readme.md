@@ -14,10 +14,9 @@ You can't just download this repo and get it running.
 There are a few minor requirements to run the stack. 
 However for the backend all you need is Docker!
 
-Install Docker
-```
+#### Install Docker
+
 [Click Here To Install Docker](https://docs.docker.com/get-docker/)
-```
 
 ### Get Up & Running
 
