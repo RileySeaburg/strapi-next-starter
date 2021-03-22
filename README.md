@@ -8,7 +8,14 @@
 
 ## About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+This is a starter template for creating fullstack javascript applications. 
+The template includes technologies such as Docker, NextJS, Strapi, and PostgreSQL.
+With authentication and routing built in you should have no problem getting started building.
+Stop looking around for other frameworks or stacks to please your itch. 
+
+This stack has everything you need as a javascript developer and it's here right now. 
+
+Fork this repo today and start hacking. 
 
 ## Getting Started <a name = "getting_started"></a>
 
@@ -16,20 +23,21 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them.
+ - NodeJS [Click Here To Install](https://nodejs.org/en/download/)
+ - Yarn   [Click Here To Install](https://classic.yarnpkg.com/en/docs/install/)
+ - Docker [Click Here To Install](https://docs.docker.com/engine/install/) 
+[!IMPORTANT] Windows subsystem for linux must be installed for a successful windows installation! 
+ - [Click Here To Install WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
-```
-Give examples
-```
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
+Clone the repository
 
 ```
-Give the example
+git clone https://github.com/RileySeaburg/strapi-next-starter
 ```
 
 And repeat
