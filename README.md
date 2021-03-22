@@ -26,8 +26,8 @@ These instructions will get you a copy of the project up and running on your loc
  - NodeJS [Click Here To Install](https://nodejs.org/en/download/)
  - Yarn   [Click Here To Install](https://classic.yarnpkg.com/en/docs/install/)
  - Docker [Click Here To Install](https://docs.docker.com/engine/install/) 
-[!IMPORTANT] 
-Windows subsystem for linux must be installed for a successful windows installation! 
+ [!IMPORTANT] 
+ Windows subsystem for linux must be installed for a successful windows installation! 
  - [Click Here To Install WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
 
