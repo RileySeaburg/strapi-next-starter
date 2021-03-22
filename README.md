@@ -40,14 +40,9 @@ Clone the repository
 git clone https://github.com/RileySeaburg/strapi-next-starter
 ```
 
-And repeat
+The whole project can run with one command.
 
 ```
-until finished
+yarn dev
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
-
-## Usage <a name = "usage"></a>
-
-Add notes about how to use the system.
