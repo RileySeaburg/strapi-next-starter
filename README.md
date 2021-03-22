@@ -1,5 +1,4 @@
-# strapi-next-starter
-
+# Strapi Next Starter Template
 ## Table of Contents
 
 - [About](#about)

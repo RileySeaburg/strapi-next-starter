@@ -1,12 +1,22 @@
 # Strapi Next Starter Template
 ## Backend & API
 
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Usage](#usage)
+- [Contributing](../CONTRIBUTING.md)
+
+## About <a name = "about"></a>
+
 This is the backend integration for the Strapi Next Starter template.
 
 This backend integration uses docker to synchronize the services into one container. 
 What does this mean for you?
 
 A Better developer experience.
+
+## Getting Started <a name = "getting_started"></a>
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
@@ -25,7 +35,7 @@ Navigate to the backend directory.
 cd backend
 ```
 
-Navigate to the backend directory.
+Install & Run Strapi & Postgres on a docker container.
 ```
-cd backend
+docker-compose up
 ```
