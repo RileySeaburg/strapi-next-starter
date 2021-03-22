@@ -2,7 +2,7 @@ version: '3'
 services:
   strapi:
     container_name: strapi
-    image: strapi/strapi
+    image: rileyseaburg/strapi-local
     environment:
       - DATABASE_CLIENT=postgres
       - DATABASE_HOST=db
@@ -21,7 +21,7 @@ services:
     image: postgres
     restart: always
     volumes:
-      - ./db:/var/lib/postgresql/data
+      - ./app:/srv/app
     ports:
       - 5432:5432   
     environment:
