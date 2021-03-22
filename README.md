@@ -27,26 +27,9 @@ These instructions will get you a copy of the project up and running on your loc
  - Yarn   [Click Here To Install](https://classic.yarnpkg.com/en/docs/install/)
  - Docker [Click Here To Install](https://docs.docker.com/engine/install/) 
  - (Windows Only) WSL [Click Here To Install WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-> [!IMPORTANT] 
-> Windows subsystem for linux must be installed for a successful windows installation! 
-
-> [!NOTE]
-> Information the user should notice even if skimming.
-
-> [!TIP]
-> Optional information to help a user be more successful.
-
-> [!IMPORTANT]
-> Essential information required for user success.
-
-> [!CAUTION]
-> Negative potential consequences of an action.
-
-> [!WARNING]
-> Dangerous certain consequences of an action.
+> **Windows subsystem for linux must be installed for a successful windows installation! **
 
 
-test
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running.
