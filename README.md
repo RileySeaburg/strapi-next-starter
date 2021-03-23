@@ -52,22 +52,12 @@ Copy the `.env.local.example` file in this directory to `.env.local` (which will
 cp .env.local.example .env.local
 ```
 
-Then set each variable on .env.local:
-
-- STRAPI_PREVIEW_SECRET can be any random string (but avoid spaces, like MY_SECRET - this is used for Preview Mode.
-- NEXT_PUBLIC_STRAPI_API_URL should be set as http://localhost:1337 (no trailing slash).
-
-Update Environment values
-```
-cp .env.local.example .env.local
-```
-
-Then set each variable on `.env.local`:
+#### Step 3. Set each variable on `.env.local`:
 
 - `STRAPI_PREVIEW_SECRET` can be any random string (but avoid spaces), like `MY_SECRET` - this is used for [Preview Mode](https://nextjs.org/docs/advanced-features/preview-mode).
 - `NEXT_PUBLIC_STRAPI_API_URL` should be set as `http://localhost:1337` (no trailing slash).
 
-### The whole project can run with one command.
+#### Step 4 Run and install the whole project with one command.
 
 ```
 yarn dev
