@@ -23,3 +23,5 @@ backend/app/public/uploads/.gitkeep
 backend/app/extensions/users-permissions/config/jwt.js
 backend/app/public
 backend/app/yarn.lock
+yarn-error.log
+yarn.lock

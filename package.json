@@ -8,6 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "cd backend && docker-compose up && cd ../frontend && yarn && yarn dev"
+    "dev": "concurrently \"yarn dev:backend\" \"yarn dev:frontend\"",
+    "dev:backend": "cd backend && docker-compose up",
+    "dev:frontend": "cd frontend && yarn upgrade && yarn dev"
   }
 }
