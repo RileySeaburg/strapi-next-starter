@@ -8,8 +8,11 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "yarn && concurrently \"yarn dev:backend\" \"yarn dev:frontend\"",    "dev:backend": "cd backend && docker-compose up",
-    "dev:frontend": "cd frontend && yarn && yarn upgrade && yarn dev"
+    "dev": "concurrently \"yarn dev:backend\" \"yarn dev:frontend\"",
+    "setup": "yarn && concurrently \"yarn dev:backend\" \"yarn install:frontend\"",    
+    "dev:backend": "cd backend && docker-compose up",
+    "install:frontend": "cd frontend && yarn && yarn upgrade",
+    "dev:frontend": "cd frontend && yarn dev"
   },
   "devDependencies": {
     "concurrently": "^6.0.0"
