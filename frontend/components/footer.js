@@ -11,7 +11,7 @@ export default function Footer() {
           <h3 className="text-4xl lg:text-5xl font-bold tracking-tighter leading-tight text-center lg:text-left mb-10 lg:mb-0 lg:pr-4 lg:w-1/2">
            Proudly assembled & maintained by Riley Seaburg.
           </h3>
-          <p>License: <Link href="https://github.com/RileySeaburg/strapi-next-starter/blob/main/license">MIT</Link></p>
+          <p>License: <Link href="https://github.com/RileySeaburg/strapi-next-starter/blob/main/LICENSE">MIT</Link></p>
           </div>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <a
