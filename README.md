@@ -34,13 +34,40 @@ These instructions will get you a copy of the project up and running on your loc
 
 A step by step series of examples that tell you how to get a development env running.
 
-Clone the repository
+#### Step 1. Clone the repository
 
 ```
 git clone https://github.com/RileySeaburg/strapi-next-starter
 ```
 
-The whole project can run with one command.
+#### Step 2 Set client side environment variables
+CD into the frontend client side directory holding your NexJS application.
+```
+cd frontend
+```
+
+Copy the `.env.local.example` file in this directory to `.env.local` (which will be ignored by Git):
+
+```bash
+cp .env.local.example .env.local
+```
+
+Then set each variable on .env.local:
+
+- STRAPI_PREVIEW_SECRET can be any random string (but avoid spaces, like MY_SECRET - this is used for Preview Mode.
+- NEXT_PUBLIC_STRAPI_API_URL should be set as http://localhost:1337 (no trailing slash).
+
+Update Environment values
+```
+cp .env.local.example .env.local
+```
+
+Then set each variable on `.env.local`:
+
+- `STRAPI_PREVIEW_SECRET` can be any random string (but avoid spaces), like `MY_SECRET` - this is used for [Preview Mode](https://nextjs.org/docs/advanced-features/preview-mode).
+- `NEXT_PUBLIC_STRAPI_API_URL` should be set as `http://localhost:1337` (no trailing slash).
+
+### The whole project can run with one command.
 
 ```
 yarn dev
