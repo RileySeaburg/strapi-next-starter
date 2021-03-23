@@ -10,6 +10,6 @@
   "scripts": {
     "dev": "concurrently \"yarn dev:backend\" \"yarn dev:frontend\"",
     "dev:backend": "cd backend && docker-compose up",
-    "dev:frontend": "cd frontend && yarn upgrade && yarn dev"
+    "dev:frontend": "cd frontend && yarn && yarn upgrade && yarn dev"
   }
 }
