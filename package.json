@@ -8,12 +8,8 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-<<<<<<< HEAD
-    "dev": "yarn && concurrently \"yarn dev:backend\" \"yarn dev:frontend\"",    "dev:backend": "cd backend && docker-compose up",
-=======
     "dev": "yarn && concurrently \"yarn dev:backend\" \"yarn dev:frontend\"",
     "dev:backend": "cd backend && docker-compose up",
->>>>>>> Update Readme and Scripts
     "dev:frontend": "cd frontend && yarn && yarn upgrade && yarn dev"
   },
   "devDependencies": {
