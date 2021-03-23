@@ -40,7 +40,12 @@ A step by step series of examples that tell you how to get a development env run
 git clone https://github.com/RileySeaburg/strapi-next-starter
 ```
 
-#### Step 2 Set client side environment variables
+#### Step 2. Setup the project & Install dependencies.
+```
+yarn setup
+```
+
+#### Step 3. Set client side environment variables
 CD into the frontend client side directory holding your NexJS application.
 ```
 cd frontend
@@ -52,12 +57,14 @@ Copy the `.env.local.example` file in this directory to `.env.local` (which will
 cp .env.local.example .env.local
 ```
 
-#### Step 3. Set each variable on `.env.local`:
+#### Step 4. Set each variable on `.env.local`:
 
 - `STRAPI_PREVIEW_SECRET` can be any random string (but avoid spaces), like `MY_SECRET` - this is used for [Preview Mode](https://nextjs.org/docs/advanced-features/preview-mode).
 - `NEXT_PUBLIC_STRAPI_API_URL` should be set as `http://localhost:1337` (no trailing slash).
 
-### Step 4. Create an `Author` collection
+
+
+#### Step 5. Create an `Author` collection
 
 From **Content-Types Builder**, **create a new collection type**.
 
@@ -70,7 +77,7 @@ Next, add these fields (you don't have to modify the settings):
 
 Then click **Save**.
 
-### Step 5. Create a `Post` collection
+#### Step 6. Create a `Post` collection
 
 From **Content-Types Builder**, **create a new collection type**.
 
@@ -87,13 +94,13 @@ Next, add these fields (you don't have to modify the settings unless specified):
 - **Relation** field called **`author`** (Post **has one** Author)
 - **Enumeration** field `status` (the values should be **published** and **draft**)
 
-### Step 6. Set permissions
+#### Step 7. Set permissions
 
 From **Settings, Users & Permissions, Roles**, edit the **Public** role.
 
 Then select: `count`, `find`, and `findone` permissions for both **Author** and **Post**. Click **Save**.
 
-### Step 7. Populate Content
+#### Step 8. Populate Content
 
 Select **Author** and click **Add New Author**.
 
@@ -110,8 +117,15 @@ Next, select **Posts** and click **Add New Post**.
 - Pick the **Author** you created earlier.
 - Set the **status** field to be **published**.
 
+#### Step 9.
 
-### Usage Run the whole project with one command. <a name = "usage"></a>
+Start Next.js dev server
+```
+yarn dev:frontend
+```
+
+
+#### Bonus: Run the whole project with one command. <a name = "usage"></a>
 
 ```
 yarn dev
