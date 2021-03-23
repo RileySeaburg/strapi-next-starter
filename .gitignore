@@ -25,3 +25,4 @@ backend/app/public
 backend/app/yarn.lock
 yarn-error.log
 yarn.lock
+frontend/env.local

@@ -1,6 +1,6 @@
 {
   "name": "strapi-next-starter",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A starter template for fullstack Javascript development using NextJS, Strapi, Postgres and Docker.",
   "main": "index.js",
   "repository": "https://github.com/RileySeaburg/strapi-next-starter",
